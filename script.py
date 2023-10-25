@@ -2,7 +2,7 @@ import openai
 import re
 
 # Initialize OpenAI API
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY_HERE"
 
 def extract_details_from_script(script_text):
     characters = list(set(re.findall(r"(\w+):", script_text)))
